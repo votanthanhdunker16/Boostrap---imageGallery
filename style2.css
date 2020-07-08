@@ -1,0 +1,41 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: rgb(15, 15, 15);
+    border-bottom: 2px solid #ffc107;
+}
+.jumbotron{
+    background-color: rgb(26, 26, 26, 0.5);
+    color: white;
+}
+/* 0.5 là transparent */
+.icons{
+font-size: 3rem;
+/* color: gray; */
+}
+
+.icons  a {
+    color: gray;
+    margin: 1rem;
+}
+.icons a:hover{
+    text-decoration: none;
+    color: #ffc107 ;
+    transition: transform .9s;
+    transform: rotate(-360deg);
+    /* transform: rotate3d(-360deg); */
+}
+/* cách 2 nè mới nha */
+/* .icons > a {
+    color: gray;
+}
+.icons > a:hover{
+    text-decoration: none;
+     color: #ffc107 ;
+} */
+
+/* rem explain */
+
+/* rem 	Relative to font-size of the root element */

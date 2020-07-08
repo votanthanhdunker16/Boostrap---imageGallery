@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Image</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body class="bg-dark">
+
+    <!-- danger : is red color
+ light : white -->
+
+    <!-- <button class="btn btn-warning"HELLO Bootstrap></button> -->
+
+    <nav class="navbar navbar-expand-lg text-danger">
+        <a class="navbar-brand  text-light" href="#"><i class="fas fa-camera-retro text-warning"></i>
+            Image Galerie </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto  ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+
+
+        </div>
+    </nav>
+    <!-- <i class="fas fa-camera-retro"></i> -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead text-warning font-italic">Things end but memories last forever, and that is why we want to
+                save all memories .</p>
+        </div>
+    </div>
+    <!-- <div class="gallery">
+    <div class="row">
+    <img class="col m-4" src="">
+    <img class="col"src="">
+    <img class="col"src="">
+</div>
+</div> -->
+
+    <div class="gallery">
+        <div class="image m-4 row" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="900">
+            <img class="col-md-4 mt-4"
+                src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
+            </img>
+            <img class="col-md-4 mt-4"
+                src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
+            </img>
+            <img class="col-md-4 mt-4"
+                src="https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
+            </img>
+        </div>
+        <div class="images  m-4 row" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="900">
+            <img class="col-md-4 mt-4"
+                src="https://images.unsplash.com/photo-1531804055935-76f44d7c3621?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
+            </img>
+            <img class="col-md-4 mt-4"
+                src="https://images.unsplash.com/photo-1534142499731-a32a99935397?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
+            </img>
+            <img class="col-md-4 mt-4"
+                src="https://images.unsplash.com/photo-1533536201350-93ebe24101f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=930&q=80">
+            </img>
+        </div>
+        <div class="images  m-4 row" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="900">
+            <img class="col-md-4 mt-4"
+                src="https://images.unsplash.com/photo-1526695029408-c5dc730c89fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
+            </img>
+            <img class="col-md-4 mt-4"
+                src="https://images.unsplash.com/photo-1534229317157-f846a08d8b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
+            </img>
+            <img class="col-md-4 mt-4"
+                src="https://images.unsplash.com/photo-1497564885540-b12eee8b5ecd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
+            </img>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid m-0" id="contact">
+        <div class="container text-center">
+            <h1 class="display-4">Contact Us</h1>
+            <div class="icons">
+                <a href="www.facebook.com" class="fab fa-facebook"></a>
+                <a href="www.instagram.com" class="fab fa-instagram"></a>
+                <a href="www.linkedin.com" class="fab fa-linkedin"></a>
+            </div>
+            <a href="#" class="btn btn-lg bg-warning">Back to Top <i class="fas fa-arrow-up"></i> </a>
+            <!-- <p class="lead text-warning font-italic">Things end but memories last forever, and that is why we want to
+                save all memories .</p> -->
+        </div>
+
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- phải copy và paste INITIALIZE AOS.init đằng sau script mới chạy đc -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1b7fb53e60.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+<!-- vậy là có thể thay đổi màu icons  -->
+<!-- text-warning font-italic là bootstrap tìm bằng f -->
+
+<!-- m-0 border :0 -->
+
+<!--  đi tìm button màu vàng -->
+
+
+<!--  cách làm lên xuống trang wed bằng link
+        <a href="#" class="btn bt-lg- text-light">Back to Top <i class="fas fa-arrow-up"></i    </a>
+
+
+
+2
+             <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+                    <div class="jumbotron jumbotron-fluid m-0" id="contact">
+-->
+
+
+
+
+<!-- target coi lại ngày 7/3
+
+1. nút button màu vàng
+câu trả lời :             <a href="#" class="btn btn-lg bg-warning">Back to Top <i class="fas fa-arrow-up"></i > </a>
+
+    giải thích : chỉ cần thêm href ="# tự động chạy lên trên"
+    google search : button bootstap
+
+2.cách click và xuống của đường link thứ 1
+
+chỗ contact:
+chỗ đầu tiên thêm : #contact
+                    <a class="nav-link" href="#contact">Contact</a>
+chỗ thêm thứ 2:
+  <div class="jumbotron jumbotron-fluid m-0" id="contact">
+
+    >>. click vô contact thêm buttom
+-->
+
+
+<!--  3 . search google nè
+1. https://michalsnik.github.io/aos/
+
+tìm
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+và
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+-->
+
+
+
+<!-- 4. cách sử dụng github vô github.com
+b1. new
+b2. tạo tên
+b3. create new 
+b4.copy link https copy
+b5. qua vs code
+b6. ctrl + shift + p
+b7. git clone đánh vô 
+b8. click vô ko enter 
+b9/ mở folder ra chọn destop để nó vô destop
+b10. vô source control
+-->
